@@ -1,0 +1,9 @@
+[Unit]
+Description="The timer which runs service"
+
+[Timer]
+Unit=07.service
+OnCalendar=minutely
+
+[Install]
+WantedBy=timers.target

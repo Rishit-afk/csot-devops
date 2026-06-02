@@ -1,0 +1,7 @@
+[Unit]
+
+Description="This is the service file for task 07, and contains the command that shall run according to the timer"
+
+[Service]
+Type=oneshot
+ExecStart=/bin/echo "Hello World"
